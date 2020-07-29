@@ -1,0 +1,30 @@
+body {
+    background-image: url();
+}
+
+nav {
+    border-color: black;
+    border-style: solid;
+}
+
+.my-style {
+    background-image: url("blue-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#border {
+    border: 3px solid black;
+}
+
+#border-top {
+    border-top: 3px solid black;
+}
+
+#width {
+    width: 85%;
+}
+
+.own-class {
+    margin: 10px auto;
+}
