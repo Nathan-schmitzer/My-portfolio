@@ -28,3 +28,36 @@ nav {
 .own-class {
     margin: 10px auto;
 }
+
+img[class="img-responsive image-resize img-thumbnail img-fluid m-2"] {
+    height: 250px;
+    width: 300px;
+  
+}
+
+#new-height{
+    height:400px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    
+  }
+  .fa-linkedin{
+      background: #55acee;
+      color: white;
+      margin-bottom: 10px;
+  }
+
+  .fa-github{
+      background: black;
+      color:white;
+  }
+
+  #about-me{
+      border: 2px solid black;
+  }
