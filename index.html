@@ -8,9 +8,11 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" href="homework.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <title>About Me</title>
 </head>
@@ -18,42 +20,33 @@
 <body class="my-style">
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand bg-warning text-primary" href="#">Nathan Schmitzer</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+        <a href="#" class="navbar-brand bg-warning text-primary">Nathan Schmitzer</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+            aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" data-toggle="collapse" data-target="#navbarMenu"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="ml-auto">
-                <ul class="navbar-nav w-100">
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <div class="mr-auto">
+
+                <ul class="navbar-nav">
                     <li class="nav-item active ml-auto">
-                        <a class="nav-link" href="./homeowork-2.html">Home <span class="sr-only">(current)</span></a>
+                        <a href="#" class="nav-link">Home</a>
                     </li>
-                    <li class="nav-item dropdown ml-auto">
-                        <a class="nav-link text-white nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                            href="./index.html">About Me</a>
-
-                        <!-- <li class="nav-item">
-                        <a class="nav-link text-white" href="./homeowork-2.html">Contact Info</a>
+                    <li class="nav-item active ml-auto">
+                        <a href="index.html" class="nav-link">About Me</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="./portfolio.html">Portfolio</a>
-                    </li> -->
-
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="./index.html">About Me</a>
-                            <a class="dropdown-item" href="./portfolio.html">Portfolio</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="./homeowork-2.html">Contact</a>
-                        </div>
+                    <li class="nav-item active ml-auto">
+                        <a href="portfolio.html" class="nav-link">Portfolio</a>
                     </li>
-                </ul>
-
+                    <li class="nav-item active ml-auto">
+                        <a href="homeowork-2.html" class="nav-link">Contact Info</a>
+                    </li>
             </div>
         </div>
+        </ul>
     </nav>
 
     <div class="py-4">
@@ -64,9 +57,13 @@
             <hr>
 
             <div class=" card-body bg-warning "></div>
+            
             <div class="media">
+                
                 <img src="positive.png" class="img-fluid pr-3" alt="Positive change in the world">
+                
                 <div id="about-me" class="media-body px-3">
+                   
                     <p>I am the embodiment of what it means to be a nerd, majority of my life taking place through my
                         computer.
                         However, I enjoy hobbies that take place outside my comfort place. I'm a big fan of
@@ -161,5 +158,14 @@
     </footer>
     <!-- Footer -->
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
 </body>
