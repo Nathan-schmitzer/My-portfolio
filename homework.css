@@ -14,7 +14,7 @@ nav {
 }
 
 .my-style {
-    background-image: url("blue-background.jpg");
+    background-image: url("./images-folder/blue-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
