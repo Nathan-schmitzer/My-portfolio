@@ -6,4 +6,4 @@ More things to come is a carousel to show my current favorite artists and have t
 A third window is there just in case I have an AMAZING idea to implement hehe....
 https://nathan-schmitzer.github.io/My-portfolio/
 
-![preview of new addition](./images-folder.new-addition.jpg)
+![preview of new addition](./images-folder/.new-addition.jpg)
