@@ -68,3 +68,18 @@ img[class="img-responsive image-resize img-thumbnail img-fluid m-2"] {
   #about-me{
       border: 2px solid black;
   }
+
+.jumbotron{
+    background-color: #D3D3D3;
+}
+
+#full{
+   border: orangered solid 6px; 
+}
+
+#max-content{
+    background-color: powderblue;
+}
+.list{
+    
+}
